@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>M4W2D4</title>
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-book"></i>Libreria galattica per gli autostoppisti
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Cerca" id="searchInput">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="button" onclick="searchBooks()">Cerca</button>
+                </form>
+                <div class="ml-2">
+                    <i class="fas fa-user"></i>
+                    <i class="fas fa-shopping-cart ml-2"></i> 
+                </div>
+            </div>
+        </div>
+    </nav>
+<!--Sezione Jumbotron-->
+    <div class="jumbotron text-center">
+        <h1 class="display-4">Benvenuto nella nostra galassia!</h1>
+        <p class="lead">«Lontano, nei dimenticati spazi non segnati nelle carte geografiche dell'estremo limite della Spirale Ovest della Galassia,
+            c'è un piccolo e insignificante sole giallo. A orbitare intorno a esso,
+            alla distanza di centoquarantanove milioni di chilometri, c'è un piccolo,
+            trascurabilissimo pianeta azzurro-verde, le cui forme di vita,
+            discendenti dalle scimmie, sono così incredibilmente primitive che credono ancora che gli orologi i libri cartacei siano un'ottima invenzione.»</p>
+    </div>
+
+    <!-- Sezione Cards -->
+    <div class="container">
+        <div class="row" id="booksContainer">
+            <!-- Aggiunta delle cards qui -->
+        </div>
+    </div>
+
+  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/js/all.min.js"></script>
+    <script type="text/javascript" src="myjavascript.js"></script>
+</body>
+</html>
