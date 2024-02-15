@@ -54,28 +54,24 @@
         </div>
       </nav>
 
-<!--Sezione Jumbotron/ Carrello-->
-    <div class="jumbotron text-center">
-        <h1>My Cart: <span class="totale">0</span> EUR</h1>
-        <button class="btn btn-light" onclick="emptyCart()"> Svuota </button>
-        <ul class="list-group">
-        </ul>
-    </div>
+      <div class="container pt-5">
+        <h2 class="my-5 text-center">Book Info</h2> 
 
-    <!-- Sezione Cards -->
-    <div class="container">
-        <div class="row" id="booksContainer">
-
-            <div class="album py-5 bg-light">
-                <div class="container">
-                  <div class="row"></div>
-                </div>
-              </div>
-            <!-- Aggiunta delle cards qui -->
+        <div class="card" style="height: 600px">
+          <img class="card-image" id="image">        
+          <div class="card-body">        
+            <p><span class="card-title">Titolo:<span id="title"></span></span></p>
+            <p><span class="card-label">Prezzo:</span><span id="price"></span></p>
+            <p><span class="card-label">Categoria:</span><span id="category"></span></p>
+            <p><span class="card-label">ASIN:</span><span id="asin"></span></p>
+          </div>        
         </div>
-    </div>
+        
+      </div>
+    
 
-  
+
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>

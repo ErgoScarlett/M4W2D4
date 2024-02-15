@@ -1,5 +1,29 @@
+/*Modifiche alla sezione navbar*/
+.dropdown-menu {
+    background-color: #343A40;
+    color : white;
+}
+
+.fa-search {
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+/*Modifiche alla sezione jumbotron*/
+.jumbotron {
+    background-color: #FFDFC0;
+    background-image: url("vector.jpg");
+    background-repeat: no-repeat;
+    color: white;
+
+}
+
+
+/*Modifiche per le card*/
 .card {
-    height: 550px;
+    height: 470px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
